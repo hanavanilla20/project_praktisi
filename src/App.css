@@ -1,0 +1,457 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  background-color: #b33900;
+}
+
+.logoCN {
+  float: left;
+  margin-left: -30px;
+  padding: 0px 38px;
+  font-family: "Raleway", "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.list {
+  float: left;
+  margin-left: 179px;
+  font-family: "Raleway", "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.navbar-hr {
+  margin-top: 0px;
+  color :white;
+}
+
+.header {
+  text-align: center;
+  position: absolute;
+  margin-left: 65%;
+  font-family: "Raleway", "Times New Roman", Times, serif;
+}
+.header-dm {
+  text-align: center;
+  position: absolute;
+  margin-left: 65%;
+  margin-top: -2%;
+  font-family: "Raleway", "Times New Roman", Times, serif;
+}
+.header-sr {
+  text-align: center;
+  position: absolute;
+  margin-left: 61%;
+  margin-top: 6%;
+  font-family: "Raleway", "Times New Roman", Times, serif;
+}
+.header-ma {
+  text-align: center;
+  position: absolute;
+  margin-left: 59%;
+  margin-top: 6%;
+  font-family: "Raleway", "Times New Roman", Times, serif;
+}
+.header-at {
+  text-align: center;
+  position: absolute;
+  margin-left: 57%;
+  margin-top: 6%;
+  font-family: "Raleway", "Times New Roman", Times, serif;
+}
+
+.content-header {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 60%;
+  left: 75%;
+  right: -20%;
+}
+
+.content-header h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 45%;
+  left: 50%;
+  right: -40%;
+}
+
+.content-header p {
+  color: #fdfdfd;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #faf895;
+}
+
+.content-header-dm {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  top: 60%;
+  left: 75%;
+  right: -20%;
+  color: #faf895;
+}
+
+.content-header-dm h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  top: -5%;
+  left: 47%;
+  right: -40%;
+}
+
+.content-header-hr {
+  margin-left: 719px;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+
+.content-header-sr {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  top: 70%;
+  left: 75%;
+  right: -20%;
+}
+.content-header-sr1 {
+  position: absolute;
+  text-align: justify;
+  top: 115%;
+  left: 3%;
+  right: 3%;
+}
+.content-header-sr2 {
+  position: absolute;
+  text-align: left;
+  top: 150%;
+  left: 25%;
+}
+.content-header-sr3 {
+  position: absolute;
+  text-align: left;
+  top: 150%;
+  left: 50%;
+  right: 3%;
+}
+
+.content-header-sp {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  top: 77%;
+  left: 75%;
+  right: -20%;
+}
+.content-header-sp1 {
+  position: absolute;
+  text-align: justify;
+  top: 120%;
+  left: 3%;
+  right: 3%;
+}
+.content-header-sp2 {
+  position: absolute;
+  text-align: left;
+  top: 153%;
+  left: 35%;
+}
+.content-header-sp3 {
+  position: absolute;
+  text-align: left;
+  top: 188%;
+  left: 3%;
+  right: 3%;
+}
+
+.content-header-skt {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  top: 75%;
+  left: 75%;
+  right: -20%;
+}
+.content-header-skt1 {
+  position: absolute;
+  text-align: justify;
+  top: 110%;
+  left: 3%;
+  right: 3%;
+}
+.content-header-skt2 {
+  position: absolute;
+  text-align: left;
+  top: 140%;
+  left: 25%;
+}
+.content-header-skt3 {
+  position: absolute;
+  text-align: left;
+  top: 175%;
+  left: 3%;
+  right: 3%;
+}
+
+.content-header-sg {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  top: 77%;
+  left: 75%;
+  right: -20%;
+}
+.content-header-sg1 {
+  position: absolute;
+  text-align: justify;
+  top: 120%;
+  left: 3%;
+  right: 3%;
+}
+.content-header-sg2 {
+  position: absolute;
+  text-align: left;
+  top: 167%;
+  left: 35%;
+}
+.content-header-sg3 {
+  position: absolute;
+  text-align: left;
+  top: 222%;
+  left: 3%;
+  right: 3%;
+}
+
+.content-header-spk {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  top: 80%;
+  left: 75%;
+  right: -20%;
+}
+.content-header-spk1 {
+  position: absolute;
+  text-align: justify;
+  top: 110%;
+  left: 3%;
+  right: 3%;
+}
+.content-header-spk2 {
+  position: absolute;
+  text-align: left;
+  top: 159%;
+  left: 40%;
+}
+.content-header-spk3 {
+  position: absolute;
+  text-align: left;
+  top: 215%;
+  left: 3%;
+  right: 3%;
+}
+
+.content-header-sba {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  top: 80%;
+  left: 75%;
+  right: -20%;
+}
+.content-header-sba1 {
+  position: absolute;
+  text-align: justify;
+  top: 120%;
+  left: 3%;
+  right: 3%;
+}
+.content-header-sba2 {
+  position: absolute;
+  text-align: left;
+  top: 190%;
+  left: 3%;
+  right: 3%;
+}
+
+.content-header-sab {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  top: 80%;
+  left: 75%;
+  right: -20%;
+}
+.content-header-sab1 {
+  position: absolute;
+  text-align: justify;
+  top: 120%;
+  left: 3%;
+  right: 3%;
+}
+.content-header-sab2 {
+  position: absolute;
+  text-align: left;
+  top: 160%;
+  left: 45%;
+  right: 3%;
+}
+.content-header-sab3 {
+  position: absolute;
+  text-align: left;
+  top: 225%;
+  left: 3%;
+  right: 3%;
+}
+
+.content-header-sma {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  top: 76%;
+  left: 75%;
+  right: -20%;
+}
+.content-header-sma1 {
+  position: absolute;
+  text-align: justify;
+  top: 115%;
+  left: 3%;
+  right: 3%;
+}
+.content-header-sma2 {
+  position: absolute;
+  text-align: left;
+  top: 152%;
+  left: 45%;
+  right: 3%;
+}
+.content-header-sma3 {
+  position: absolute;
+  text-align: left;
+  top: 217%;
+  left: 3%;
+  right: 3%;
+}
+
+.content-header-sat {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  top: 75%;
+  left: 75%;
+  right: -20%;
+}
+.content-header-sat1 {
+  position: absolute;
+  text-align: justify;
+  top: 110%;
+  left: 3%;
+  right: 3%;
+}
+.content-header-sat2 {
+  position: absolute;
+  text-align: left;
+  top: 152%;
+  left: 45%;
+  right: 3%;
+}
+.content-header-sat3 {
+  position: absolute;
+  text-align: left;
+  top: 185%;
+  left: 3%;
+  right: 3%;
+}
+
+.content-header-src {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  top: 82%;
+  left: 75%;
+  right: -20%;
+}
+.content-header-src1 {
+  position: absolute;
+  text-align: justify;
+  top: 125%;
+  left: 3%;
+  right: 3%;
+}
+.content-header-src2 {
+  position: absolute;
+  text-align: left;
+  top: 157%;
+  left: 50%;
+  right: 3%;
+}
+.content-header-src3 {
+  position: absolute;
+  text-align: left;
+  top: 200%;
+  left: 3%;
+  right: 3%;
+}
+
+text {
+  width: 205px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.col-img {
+  position: absolute;
+  top: 60%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  text-align: -webkit-right;
+}
+
+.col-img img {
+  width: 70%;
+}
+
+.about {
+  margin-top: 5%;
+}
+
+hr {
+  color:#000000;
+}
